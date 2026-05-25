@@ -1,0 +1,295 @@
+body {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  color: #21243d;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  margin: 15px auto 0 auto;
+}
+
+#menu-button {
+  display: none;
+}
+
+#nav-links {
+  display: flex;
+  gap: 75px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  margin: 75px auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 0;
+}
+
+a#button-cv {
+  background: #ff6464;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+#subtitle {
+  font-size: 16px;
+}
+div#Header-content {
+  width: 630px;
+}
+p#Subtitle {
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+div#Articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Blog {
+  background-color: #edf7fa;
+  padding-bottom: 35px;
+}
+#blog-content {
+  max-width: 1200px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  margin: auto;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.article-blog {
+  background-color: white;
+  border-radius: 4px;
+  width: 543px;
+  max-width: 48%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.article-title {
+  font-size: 26px;
+}
+
+.date-category {
+  font-size: 18px;
+  display: flex;
+  gap: 25px;
+}
+.article-description {
+  font-size: 16px;
+}
+
+#projet {
+  max-width: 1200px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.projet {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.projet-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 0 15px 0;
+}
+
+.date-type {
+  display: flex;
+  gap: 25px;
+}
+
+.projet-date {
+  background-color: #142850;
+  border-radius: 16px;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  width: 62px;
+  height: 25px;
+  text-align: center;
+}
+
+.projet-type {
+  color: #8695a4;
+  font-size: 16px;
+}
+
+.projet-description {
+  color: #21243d;
+  font-size: 16px;
+}
+
+#contact-content {
+  display: flex;
+  gap: 40px;
+}
+
+#contact {
+  max-width: 1200px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  margin: auto;
+}
+
+h3.contact-title {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+#contact-intro {
+  font-size: 20px;
+}
+
+#Email {
+  font-size: 16px;
+}
+
+.social-link {
+  font-size: 16px;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+#coordonnees {
+  flex: 1;
+}
+
+label {
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  background-color: #f7f7f7;
+  border: none;
+  height: 46px;
+}
+
+textarea#message {
+  height: 165px;
+}
+
+button#submit {
+  background-color: black;
+  border: none;
+  color: white;
+  height: 56px;
+}
+/* Footer styles */
+footer {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+div#icons-social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+p#copyright {
+  font-size: 14px;
+  color: #21243d;
+}
+
+@media (max-width: 700px) {
+  #menu-button {
+    display: block;
+  }
+
+  .nav-link {
+    display: none;
+  }
+  
+  .projet {
+    flex-direction: column;
+  }
+
+  div#Header-content {
+    flex-direction: column-reverse;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  div#Header-content {
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .date-category {
+    gap: 5px;
+  }
+
+  .article-blog {
+    width: 100%;
+    max-width: none;
+  }
+
+  #Articles {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #coordonnees {
+    display: none;
+  }
+
+    .projet-image {
+      width: 100%;
+    }
+  }
+
